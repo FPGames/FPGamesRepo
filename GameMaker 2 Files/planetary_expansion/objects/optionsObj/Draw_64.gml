@@ -80,3 +80,4 @@ if (audioOptionsDraw == true)
 	{
 		colMFN = c_white;
 	}
+}
