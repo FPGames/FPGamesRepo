@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "7c817331-1fcd-4c11-ac7c-5475710aafd8",
+            "Value": {
+                "id": "6ac36a63-f73d-4aba-8eaf-bc05e8e3d2a2",
+                "resourcePath": "fonts\\titleScreenFont\\titleScreenFont.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "8113d54b-b793-4e86-bbc9-a3300d4d0c55",
             "Value": {
                 "id": "31ac89d2-1eb0-4f6e-9d00-3b73836a6bad",
@@ -98,7 +106,7 @@
             "Key": "9536f8c8-90b8-4a23-91a7-aededcd9ac38",
             "Value": {
                 "id": "766e9504-f85f-41bf-b95c-562df00060f1",
-                "resourcePath": "objects\\oOption\\oOption.yy",
+                "resourcePath": "objects\\optionsObj\\optionsObj.yy",
                 "resourceType": "GMObject"
             }
         },
