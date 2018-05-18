@@ -211,7 +211,7 @@ else if (optionSelect_committed != 3)
 if (optionSelect_cursor == 3) {optionSelect_mode = OPTIONS_SELECT.AUDIO;}
 else if(optionSelect_cursor == 2) {optionSelect_mode = OPTIONS_SELECT.CONTROLS;}
 else if(optionSelect_cursor == 1) {optionSelect_mode = OPTIONS_SELECT.VIDEO;}
-/// music, sound and track checker
+// music, sound and track checker
 //if (GlobalVariables.musicPlay) {MOFN = On;}
 //else if (!GlobalVariables.musicPlay) {MOFN = Off;}
 //if (GlobalVariables.soundPlay) {SOFN = On;}
