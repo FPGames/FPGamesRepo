@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "3c4a1f04-23bf-441f-8ad0-da52402ef23a",
+            "Value": {
+                "id": "1b7a0ee9-e63a-4128-96d3-e6cba83d67dd",
+                "resourcePath": "sprites\\starsBg\\starsBg.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4793219d-06ba-4249-b9ff-5ab9a1bb428d",
             "Value": {
                 "id": "9ab361bc-511a-4c4a-a47f-648b658343dc",
@@ -132,6 +140,14 @@
                 "id": "766e9504-f85f-41bf-b95c-562df00060f1",
                 "resourcePath": "objects\\optionsObj\\optionsObj.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9aa07e94-063e-4fc5-bed3-6f02413ba087",
+            "Value": {
+                "id": "caebf72b-73a3-41fd-aa56-84dbce24fa26",
+                "resourcePath": "views\\9aa07e94-063e-4fc5-bed3-6f02413ba087.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
