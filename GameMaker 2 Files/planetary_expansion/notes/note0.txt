@@ -1,2 +1,5 @@
 Hello everyone, this is the Planetary Expansion Gamemaker File.
 It was made on 16/05/18.
+
+7/05/18 - Started the game and menu
+18/05/18 - Documentation and Sprites
