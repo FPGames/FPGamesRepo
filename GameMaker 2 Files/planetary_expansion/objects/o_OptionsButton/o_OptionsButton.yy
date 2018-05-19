@@ -1,28 +1,18 @@
 {
-    "id": "d062207b-e911-4c71-90b5-35085d721ed9",
+    "id": "e4597643-1a89-44db-a987-8f5aaabda2f9",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_VolumeSliderMusic",
+    "name": "o_OptionsButton",
     "eventList": [
         {
-            "id": "d24c424b-9328-40ea-921c-3eb74a05903c",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 2,
-            "eventtype": 3,
-            "m_owner": "d062207b-e911-4c71-90b5-35085d721ed9"
-        },
-        {
-            "id": "19df7d9e-b839-42a3-8107-08aebdbaf009",
+            "id": "8d979b65-efeb-472a-a9af-266c54875c33",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "d062207b-e911-4c71-90b5-35085d721ed9"
+            "eventtype": 3,
+            "m_owner": "e4597643-1a89-44db-a987-8f5aaabda2f9"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "b1c84505-22e6-4cd4-98d5-df0aa55a45bf",
+    "spriteId": "4793219d-06ba-4249-b9ff-5ab9a1bb428d",
     "visible": true
 }

@@ -74,7 +74,7 @@
             "Key": "39440c76-dc90-4984-8bce-983fbb4bf991",
             "Value": {
                 "id": "eb25622c-d60a-4b0b-8723-781fff815d56",
-                "resourcePath": "objects\\o_GlobalVariablesOptions\\o_GlobalVariablesOptions.yy",
+                "resourcePath": "objects\\GlobalVariablesOptions\\GlobalVariablesOptions.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -202,7 +202,7 @@
             "Key": "9fbd4d89-f767-45db-96ce-16c3817e648c",
             "Value": {
                 "id": "ba408fc1-7d1c-48cd-a097-1904938871e2",
-                "resourcePath": "notes\\note0.yy",
+                "resourcePath": "notes\\Update Log.yy",
                 "resourceType": "GMNotes"
             }
         },
@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "d2b355fb-bc36-4151-86b6-02c65520e113",
+            "Value": {
+                "id": "f9b974d6-6c13-4898-bbbe-243a7c4d73f9",
+                "resourcePath": "fonts\\optionsFont\\optionsFont.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "d5c0d55e-f4a2-444f-ad17-715f72f26b01",
             "Value": {
                 "id": "3d6ea6bb-c52e-4647-89cb-a0d1ebcce8fb",
@@ -359,6 +367,14 @@
             }
         },
         {
+            "Key": "e4597643-1a89-44db-a987-8f5aaabda2f9",
+            "Value": {
+                "id": "dddafeae-2c82-402d-b83a-160ac321a737",
+                "resourcePath": "objects\\o_OptionsButton\\o_OptionsButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e6548b03-56d9-494f-8072-d9bf9db4b5e0",
             "Value": {
                 "id": "29e1d16b-a9d9-46b7-8cd3-f7010c738df9",
@@ -371,6 +387,14 @@
             "Value": {
                 "id": "58e1da5b-aaa4-4db5-a67b-e9b8e8d2cd9d",
                 "resourcePath": "objects\\o_Title\\o_Title.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ec5939e6-7702-43bd-8b52-cf418261b800",
+            "Value": {
+                "id": "81151e5c-cfb0-4cfa-b2b2-155e5f59080f",
+                "resourcePath": "objects\\o_VolumeSliderBackground\\o_VolumeSliderBackground.yy",
                 "resourceType": "GMObject"
             }
         },

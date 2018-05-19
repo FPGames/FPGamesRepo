@@ -7,8 +7,14 @@ soundVolume = 0.25;
 musicTrack = 1;
 delay1 = 0;
 delay2 = 0;
-audio_group_load(MusicGroup);
+musicControl = false;
+soundControl = false;
+//audio_group_load(MusicGroup);
 
+// menu and game varialbes
+optionsExist = false;
+mainMenuExist = true;
+mainMenuButtonsExist = true;
 /// controls option variables
 red_up = "SetKey";
 red_down = "SetKey";

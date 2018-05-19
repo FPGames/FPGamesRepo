@@ -47,34 +47,34 @@ if (audioSelect_control)
 	if (keyboard_check_pressed(vk_enter))
 	{
 		audioSelect_committed = audioSelect_cursor;
-		if (audioSelect_committed == 4) && (GlobalVariables.musicPlay)
+		if (audioSelect_committed == 4) && (GlobalVariablesOptions.musicPlay)
 		{
-			GlobalVariables.musicPlay = false;
+			GlobalVariablesOptions.musicPlay = false;
 		}
-		else if (audioSelect_committed == 4) && (!GlobalVariables.musicPlay)
+		else if (audioSelect_committed == 4) && (!GlobalVariablesOptions.musicPlay)
 		{
-			GlobalVariables.musicPlay = true;
+			GlobalVariablesOptions.musicPlay = true;
 		}
-		if (audioSelect_committed == 2) && (GlobalVariables.soundPlay)
+		if (audioSelect_committed == 2) && (GlobalVariablesOptions.soundPlay)
 		{
-			GlobalVariables.soundPlay = false;
+			GlobalVariablesOptions.soundPlay = false;
 		}
-		else if (audioSelect_committed == 2) && (!GlobalVariables.soundPlay)
+		else if (audioSelect_committed == 2) && (!GlobalVariablesOptions.soundPlay)
 		{
-			GlobalVariables.soundPlay = true;
+			GlobalVariablesOptions.soundPlay = true;
 		}
 		if (audioSelect_committed == 3)
 		{
 			audioSelect_control = false;
 			volumeSlider1_control = true;
 		}
-		if (audioSelect_committed == 0) && (GlobalVariables.musicTrack == 1)
+		if (audioSelect_committed == 0) && (GlobalVariablesOptions.musicTrack == 1)
 		{
-			GlobalVariables.musicTrack = 2;
+			GlobalVariablesOptions.musicTrack = 2;
 		}
-		else if (audioSelect_committed == 0) && (GlobalVariables.musicTrack == 2)
+		else if (audioSelect_committed == 0) && (GlobalVariablesOptions.musicTrack == 2)
 		{
-			GlobalVariables.musicTrack = 1;
+			GlobalVariablesOptions.musicTrack = 1;
 		}
 		if (audioSelect_committed == 1)
 		{
@@ -91,14 +91,14 @@ if (volumeSlider1_control)
 		audioMinusRightDelay = 0;
 		audioMinusLeftDelay++
 		if (audioMinusLeftDelay = 1000) {audioBonusLeft = 0.03;}
-		GlobalVariables.musicVolume = GlobalVariables.musicVolume - audioBonusLeft;
+		GlobalVariablesOptions.musicVolume = GlobalVariablesOptions.musicVolume - audioBonusLeft;
 	}
 	if (keyboard_check(vk_right))
 	{
 		audioMinusLeftDelay = 0;
 		audioMinusRightDelay++
 		if (audioMinusRightDelay = 1000) {audioBonusRight = 0.03;}
-		GlobalVariables.musicVolume = GlobalVariables.musicVolume + audioBonusRight;
+		GlobalVariablesOptions.musicVolume = GlobalVariablesOptions.musicVolume + audioBonusRight;
 	}
 	if (keyboard_check_pressed(vk_backspace))
 	{
@@ -119,14 +119,14 @@ if (volumeSlider2_control)
 	{
 		audioMinusLeftDelay++
 		if (audioMinusLeftDelay = 1000) {audioBonusLeft = 0.03;}
-		GlobalVariables.soundVolume = GlobalVariables.soundVolume - audioBonusLeft;
+		GlobalVariablesOptions.soundVolume = GlobalVariablesOptions.soundVolume - audioBonusLeft;
 	}
 	if (keyboard_check(vk_right))
 	{
 		audioMinusLeftDelay = 0;
 		audioMinusRightDelay++
 		if (audioMinusRightDelay = 1000) {audioBonusRight = 0.03;}
-		GlobalVariables.soundVolume = GlobalVariables.soundVolume + audioBonusRight;
+		GlobalVariablesOptions.soundVolume = GlobalVariablesOptions.soundVolume + audioBonusRight;
 	}
 	if (keyboard_check(vk_backspace))
 	{
@@ -148,13 +148,13 @@ switch (optionSelect_mode)
 		controlOptionsDraw = false;
 		videoOptionsDraw = false;
 		audioOptionsDraw = true;
-		sprite_index = sAudioBackground;
+		sprite_index = s_AudioBackground;
 		if (audioMenuDelay == 0)
 		{
-			instance_create_layer((GlobalVariables.musicVolume*100*2)+952,425,"VolumeSlider", oVolumeSliderMusic);
-		    instance_create_layer((GlobalVariables.soundVolume*100*2)+952,545,"VolumeSlider", oVolumeSliderSound);
-		    instance_create_layer(1052,425,"VolumeSliderBackground", oVolumeSliderBackground);
-		    instance_create_layer(1052,545,"VolumeSliderBackground", oVolumeSliderBackground);
+			instance_create_layer((GlobalVariablesOptions.musicVolume*100*2)+952,425,"Volume_Slider", o_VolumeSliderMusic);
+		    instance_create_layer((GlobalVariablesOptions.soundVolume*100*2)+952,545,"Volume_Slider", o_VolumeSliderSound);
+		    instance_create_layer(1052,425,"Volume_Slider_Background", o_VolumeSliderBackground);
+		    instance_create_layer(1052,545,"Volume_Slider_Background", o_VolumeSliderBackground);
 			audioMenuDelay = 1;
 		}
 		break;
@@ -162,26 +162,26 @@ switch (optionSelect_mode)
 	case OPTIONS_SELECT.CONTROLS:
 	{
 		audioMenuDelay = 0;
-		instance_destroy(oVolumeSliderSound); 
-		instance_destroy(oVolumeSliderMusic); 
-		instance_destroy(oVolumeSliderBackground); 
+		instance_destroy(o_VolumeSliderSound); 
+		instance_destroy(o_VolumeSliderMusic); 
+		instance_destroy(o_VolumeSliderBackground); 
 		audioOptionsDraw = false;
 		videoOptionsDraw = false;
 		controlOptionsDraw = true;
-		sprite_index = sControlsBackground;
+		sprite_index = s_ControlsBackground;
 		controlSelect_control = true;
 		break;
 	}
 	case OPTIONS_SELECT.VIDEO:
 	{
 		audioMenuDelay = 0;
-		instance_destroy(oVolumeSliderSound); 
-		instance_destroy(oVolumeSliderMusic); 
-		instance_destroy(oVolumeSliderBackground); 
+		instance_destroy(o_VolumeSliderSound); 
+		instance_destroy(o_VolumeSliderMusic); 
+		instance_destroy(o_VolumeSliderBackground); 
 		audioOptionsDraw = false;
 		controlOptionsDraw = false;
 		videoOptionsDraw = true;
-		//sprite_index = sVideoBackground;
+		//sprite_index = s_VideoBackground;
 		videoSelect_control = true;
 		break;
 	}
@@ -189,8 +189,8 @@ switch (optionSelect_mode)
 	{
 		audioMenuDelay = 0;
 		audioOptionsDraw = false;
-		instance_destroy(oOption); 
-		instance_create_layer(400,400,"Menu", oMenu);
+		instance_destroy(o_Option); 
+		//instance_create_layer(400,400,"Menu", oMenu);
 		break;
 	}
 }
@@ -212,9 +212,9 @@ if (optionSelect_cursor == 3) {optionSelect_mode = OPTIONS_SELECT.AUDIO;}
 else if(optionSelect_cursor == 2) {optionSelect_mode = OPTIONS_SELECT.CONTROLS;}
 else if(optionSelect_cursor == 1) {optionSelect_mode = OPTIONS_SELECT.VIDEO;}
 // music, sound and track checker
-//if (GlobalVariables.musicPlay) {MOFN = On;}
-//else if (!GlobalVariables.musicPlay) {MOFN = Off;}
-//if (GlobalVariables.soundPlay) {SOFN = On;}
-//else if (!GlobalVariables.soundPlay) {SOFN = Off;}
-if (GlobalVariables.musicTrack == 1) {Track = "Cave";}
-else if (GlobalVariables.musicTrack == 2) {Track = "Forest";}
+//if (GlobalVariablesOptions.musicPlay) {MOFN = On;}
+//else if (!GlobalVariablesOptions.musicPlay) {MOFN = Off;}
+//if (GlobalVariablesOptions.soundPlay) {SOFN = On;}
+//else if (!GlobalVariablesOptions.soundPlay) {SOFN = Off;}
+if (GlobalVariablesOptions.musicTrack == 1) {Track = "Cave";}
+else if (GlobalVariablesOptions.musicTrack == 2) {Track = "Forest";}
