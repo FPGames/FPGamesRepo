@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "16e7d873-3a5e-46c2-b08e-d28f9b6b2f24",
+            "Value": {
+                "id": "ee8d898d-01c2-4276-8686-db4ed155ce0a",
+                "resourcePath": "sprites\\s_menu_button_options\\s_menu_button_options.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "22ce6443-21bd-49b6-95b5-7991e754a32b",
             "Value": {
                 "id": "da667f6a-b839-4665-b8f2-5b32e90e3f18",
@@ -239,6 +247,14 @@
             }
         },
         {
+            "Key": "aa3720ee-503b-4057-95b7-de760eebc6a4",
+            "Value": {
+                "id": "7617cbbc-bc9b-4cc4-b00c-095e6d3a3e3e",
+                "resourcePath": "sprites\\s_menu_button_quit\\s_menu_button_quit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "af0acf30-c883-4e13-950c-63a0e27c3871",
             "Value": {
                 "id": "80fda213-a886-4c36-a7af-ecd06f2257a5",
@@ -308,6 +324,14 @@
                 "id": "63813a0e-bd33-4109-a7d1-eb20e8533a77",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cdd58f64-acd6-475d-b092-192e29123ccd",
+            "Value": {
+                "id": "ac9685b1-9a7e-4536-ba32-a5ec1c947171",
+                "resourcePath": "objects\\o_QuitButton\\o_QuitButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {
