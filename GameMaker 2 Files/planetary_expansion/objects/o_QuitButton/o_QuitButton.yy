@@ -1,18 +1,18 @@
 {
-    "id": "e4597643-1a89-44db-a987-8f5aaabda2f9",
+    "id": "cdd58f64-acd6-475d-b092-192e29123ccd",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_OptionsButton",
+    "name": "o_QuitButton",
     "eventList": [
         {
-            "id": "8d979b65-efeb-472a-a9af-266c54875c33",
+            "id": "0ab62ede-2895-4f95-bc6f-9d61565ef0ad",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "e4597643-1a89-44db-a987-8f5aaabda2f9"
+            "m_owner": "cdd58f64-acd6-475d-b092-192e29123ccd"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "16e7d873-3a5e-46c2-b08e-d28f9b6b2f24",
+    "spriteId": "aa3720ee-503b-4057-95b7-de760eebc6a4",
     "visible": true
 }
