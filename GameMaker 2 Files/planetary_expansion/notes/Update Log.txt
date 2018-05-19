@@ -8,4 +8,5 @@ Baekhan 18/05/18 - Changed the movement/animation for stars
 		   Added o_GlobalVariablesOptions
 		   Added o_VolumeSliderMusic
 		   Added o_VolumeSliderSound
-		   Added o_
+		   Added o_VolumeSliderBackground
+		   Added optionsFont

@@ -1,5 +1,5 @@
 /// @description Mouse volume slider 
-if (GlobalVariables.control)
+if (GlobalVariablesOptions.musicControl)
 {
 	if (!held)
 	{
@@ -15,7 +15,7 @@ if (GlobalVariables.control)
 	{
 		image_xscale = 0.7;
 		x = clamp(mouse_x,200,room_width-200);
-		with (GlobalVariables)
+		with (GlobalVariablesOptions)
 		{
 			musicVolume = (other.x-200)/(room_width-400);
 		}
