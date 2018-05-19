@@ -66,7 +66,7 @@
             "Key": "16e7d873-3a5e-46c2-b08e-d28f9b6b2f24",
             "Value": {
                 "id": "ee8d898d-01c2-4276-8686-db4ed155ce0a",
-                "resourcePath": "sprites\\s_menu_button_options\\s_menu_button_options.yy",
+                "resourcePath": "sprites\\s_MenuButtonOptions\\s_MenuButtonOptions.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -98,7 +98,7 @@
             "Key": "4793219d-06ba-4249-b9ff-5ab9a1bb428d",
             "Value": {
                 "id": "9ab361bc-511a-4c4a-a47f-648b658343dc",
-                "resourcePath": "sprites\\s_menu_button_start\\s_menu_button_start.yy",
+                "resourcePath": "sprites\\s_MenuButtonStart\\s_MenuButtonStart.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -106,7 +106,7 @@
             "Key": "4ca6661d-f8d4-48db-830e-607ed8963e5a",
             "Value": {
                 "id": "7443762d-c138-4c65-99a3-8fa98d693f35",
-                "resourcePath": "sprites\\s_menu_button_continue\\s_menu_button_continue.yy",
+                "resourcePath": "sprites\\s_MenuButtonContinue\\s_MenuButtonContinue.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -130,7 +130,7 @@
             "Key": "6414ec30-3a99-4bca-b8cb-f124c574a5fe",
             "Value": {
                 "id": "2edbfe67-c62f-4061-98a8-56b06dc196d3",
-                "resourcePath": "sprites\\s_menu_title\\s_menu_title.yy",
+                "resourcePath": "sprites\\s_MenuTitle\\s_MenuTitle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -242,7 +242,7 @@
             "Key": "a9d2cc47-a3fd-4742-b86e-aac183bcf795",
             "Value": {
                 "id": "0f7ce0d1-5a26-4747-aae4-db6536353232",
-                "resourcePath": "sprites\\s_menu_referance\\s_menu_referance.yy",
+                "resourcePath": "sprites\\s_MenuReferance\\s_MenuReferance.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -250,7 +250,7 @@
             "Key": "aa3720ee-503b-4057-95b7-de760eebc6a4",
             "Value": {
                 "id": "7617cbbc-bc9b-4cc4-b00c-095e6d3a3e3e",
-                "resourcePath": "sprites\\s_menu_button_quit\\s_menu_button_quit.yy",
+                "resourcePath": "sprites\\s_MenuButtonQuit\\s_MenuButtonQuit.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -306,7 +306,7 @@
             "Key": "bc2f8c40-9731-4136-8c67-64e9a310d6d5",
             "Value": {
                 "id": "4f5bce7f-c822-4064-b7d5-937d19e0a69b",
-                "resourcePath": "sprites\\sprite12\\sprite12.yy",
+                "resourcePath": "sprites\\s_BackButton\\s_BackButton.yy",
                 "resourceType": "GMSprite"
             }
         },
