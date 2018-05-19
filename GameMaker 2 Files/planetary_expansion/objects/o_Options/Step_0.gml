@@ -1,144 +1,170 @@
 /// @description keyboard check and pressed
 //desc setup
-// keyboard Controls
-/// option selecting
-if (optionSelect_control)
+if (keyboard_check_pressed(vk_anykey))
 {
-	if (keyboard_check_pressed(vk_up))
-	{
-		optionSelect_cursor++;
-		if (optionSelect_cursor >= optionSelect_items) optionSelect_cursor = 0;
-	}
-	if (keyboard_check_pressed(vk_down))
-	{
-		optionSelect_cursor--;
-		if (optionSelect_cursor < 0) optionSelect_cursor = optionSelect_items-1;
-	}
-	if (keyboard_check_pressed(vk_enter))
-	{
-		optionSelect_committed = optionSelect_cursor;
-		optionSelect_control = false;
-		if (optionSelect_cursor == 3) {audioSelect_control = true;}
-		if (optionSelect_cursor == 2) {controlSelect_control = true;}
-		
-	}
+	controlDevice = 1;
+}
+if (mouse_check_button(mb_any))
+{
+	controlDevice = 0;
+}
+/// mouse controls
+if position_meeting(mouse_x, mouse_y, o_Back) && mouse_check_button_pressed(mb_left)
+{
+	GlobalVariablesOptions.optionsExist = false;
+	GlobalVariablesOptions.mainMenuButtonsExist = true;
+	GlobalVariablesOptions.addMMButtondelay = 0;
+}
+/// keyboard Controls
+// option selecting
+if (controlDevice == 1)
+{
+	if (optionSelect_control)
+		{
+			if (keyboard_check_pressed(vk_up))
+			{
+				optionSelect_cursor++;
+				if (optionSelect_cursor >= optionSelect_items) optionSelect_cursor = 0;
+			}
+			if (keyboard_check_pressed(vk_down))
+			{
+				optionSelect_cursor--;
+				if (optionSelect_cursor < 0) optionSelect_cursor = optionSelect_items-1;
+			}
+			if (keyboard_check_pressed(vk_enter))
+			{
+				optionSelect_committed = optionSelect_cursor;
+				optionSelect_control = false;
+				if (optionSelect_cursor == 3) {audioSelect_control = true;}
+				if (optionSelect_cursor == 2) {controlSelect_control = true;}
+			}
+		}
 }
 /// audio selecting
-if (audioSelect_control)
+if (controlDevice = 1)
 {
-	if (keyboard_check_pressed(vk_up))
+	if (audioSelect_control)
 	{
-		audioSelect_cursor++;
-		if (audioSelect_cursor > 4) audioSelect_cursor = 0;
-	}
-	if (keyboard_check_pressed(vk_down))
-	{
-		audioSelect_cursor--;
-		if (audioSelect_cursor < 0) audioSelect_cursor = 4;
-	}
-	if (keyboard_check_pressed(vk_left)) or (keyboard_check_pressed(vk_backspace))
-	{
-		audioSelect_control = false;
-		optionSelect_control = true;
-		audioSelect_cursor = -1;
-		audioSelect_committed = -1;
-		optionSelect_committed = -1;
-	}
-	if (keyboard_check_pressed(vk_enter))
-	{
-		audioSelect_committed = audioSelect_cursor;
-		if (audioSelect_committed == 4) && (GlobalVariablesOptions.musicPlay)
+		if (keyboard_check_pressed(vk_up))
 		{
-			GlobalVariablesOptions.musicPlay = false;
+			audioSelect_cursor++;
+			if (audioSelect_cursor > 4) audioSelect_cursor = 0;
 		}
-		else if (audioSelect_committed == 4) && (!GlobalVariablesOptions.musicPlay)
+		if (keyboard_check_pressed(vk_down))
 		{
-			GlobalVariablesOptions.musicPlay = true;
+			audioSelect_cursor--;
+			if (audioSelect_cursor < 0) audioSelect_cursor = 4;
 		}
-		if (audioSelect_committed == 2) && (GlobalVariablesOptions.soundPlay)
-		{
-			GlobalVariablesOptions.soundPlay = false;
-		}
-		else if (audioSelect_committed == 2) && (!GlobalVariablesOptions.soundPlay)
-		{
-			GlobalVariablesOptions.soundPlay = true;
-		}
-		if (audioSelect_committed == 3)
+		if (keyboard_check_pressed(vk_left)) or (keyboard_check_pressed(vk_backspace))
 		{
 			audioSelect_control = false;
-			volumeSlider1_control = true;
+			optionSelect_control = true;
+			audioSelect_cursor = -1;
+			audioSelect_committed = -1;
+			optionSelect_committed = -1;
 		}
-		if (audioSelect_committed == 0) && (GlobalVariablesOptions.musicTrack == 1)
+		if (keyboard_check_pressed(vk_enter))
 		{
-			GlobalVariablesOptions.musicTrack = 2;
-		}
-		else if (audioSelect_committed == 0) && (GlobalVariablesOptions.musicTrack == 2)
-		{
-			GlobalVariablesOptions.musicTrack = 1;
-		}
-		if (audioSelect_committed == 1)
-		{
-			audioSelect_control = false;
-			volumeSlider2_control = true;
+			audioSelect_committed = audioSelect_cursor;
+			if (audioSelect_committed == 4) && (GlobalVariablesOptions.musicPlay)
+			{
+				GlobalVariablesOptions.musicPlay = false;
+			}
+			else if (audioSelect_committed == 4) && (!GlobalVariablesOptions.musicPlay)
+			{
+				GlobalVariablesOptions.musicPlay = true;
+			}
+			if (audioSelect_committed == 2) && (GlobalVariablesOptions.soundPlay)
+			{
+				GlobalVariablesOptions.soundPlay = false;
+			}
+			else if (audioSelect_committed == 2) && (!GlobalVariablesOptions.soundPlay)
+			{
+				GlobalVariablesOptions.soundPlay = true;
+			}
+			if (audioSelect_committed == 3)
+			{
+				audioSelect_control = false;
+				volumeSlider1_control = true;
+			}
+			if (audioSelect_committed == 0) && (GlobalVariablesOptions.musicTrack == 1)
+			{
+				GlobalVariablesOptions.musicTrack = 2;
+			}
+			else if (audioSelect_committed == 0) && (GlobalVariablesOptions.musicTrack == 2)
+			{
+				GlobalVariablesOptions.musicTrack = 1;
+			}
+			if (audioSelect_committed == 1)
+			{
+				audioSelect_control = false;
+				volumeSlider2_control = true;
+			}
 		}
 	}
 }
 /// music volume slider
-if (volumeSlider1_control)
+if (controlDevice = 1)
 {
-	if (keyboard_check(vk_left))
+	if (volumeSlider1_control)
 	{
-		audioMinusRightDelay = 0;
-		audioMinusLeftDelay++
-		if (audioMinusLeftDelay = 1000) {audioBonusLeft = 0.03;}
-		GlobalVariablesOptions.musicVolume = GlobalVariablesOptions.musicVolume - audioBonusLeft;
+		if (keyboard_check(vk_left))
+		{
+			audioMinusRightDelay = 0;
+			audioMinusLeftDelay++
+			if (audioMinusLeftDelay = 1000) {audioBonusLeft = 0.03;}
+			GlobalVariablesOptions.musicVolume = GlobalVariablesOptions.musicVolume - audioBonusLeft;
+		}
+		if (keyboard_check(vk_right))
+		{
+			audioMinusLeftDelay = 0;
+			audioMinusRightDelay++
+			if (audioMinusRightDelay = 1000) {audioBonusRight = 0.03;}
+			GlobalVariablesOptions.musicVolume = GlobalVariablesOptions.musicVolume + audioBonusRight;
+		}
+		if (keyboard_check_pressed(vk_backspace))
+		{
+			audioMinusLeftDelay = 0;
+			audioMinusRightDelay = 0;
+			audioBonusLeft = 0.01;
+			audioBonusRight = 0.01;
+			volumeSlider1_control = false;
+			audioSelect_control = true;
+		}
+		if (audioMinusLeftDelay == 0) {audioBonusLeft = 0.01;}
+		if (audioMinusRightDelay == 0) {audioBonusRight = 0.01;}
 	}
-	if (keyboard_check(vk_right))
-	{
-		audioMinusLeftDelay = 0;
-		audioMinusRightDelay++
-		if (audioMinusRightDelay = 1000) {audioBonusRight = 0.03;}
-		GlobalVariablesOptions.musicVolume = GlobalVariablesOptions.musicVolume + audioBonusRight;
-	}
-	if (keyboard_check_pressed(vk_backspace))
-	{
-		audioMinusLeftDelay = 0;
-		audioMinusRightDelay = 0;
-		audioBonusLeft = 0.01;
-		audioBonusRight = 0.01;
-		volumeSlider1_control = false;
-		audioSelect_control = true;
-	}
-	if (audioMinusLeftDelay == 0) {audioBonusLeft = 0.01;}
-	if (audioMinusRightDelay == 0) {audioBonusRight = 0.01;}
 }
 /// sound volume slider
-if (volumeSlider2_control)
+if (controlDevice = 1)
 {
-	if (keyboard_check(vk_left))
+	if (volumeSlider2_control)
 	{
-		audioMinusLeftDelay++
-		if (audioMinusLeftDelay = 1000) {audioBonusLeft = 0.03;}
-		GlobalVariablesOptions.soundVolume = GlobalVariablesOptions.soundVolume - audioBonusLeft;
+		if (keyboard_check(vk_left))
+		{
+			audioMinusLeftDelay++
+			if (audioMinusLeftDelay = 1000) {audioBonusLeft = 0.03;}
+			GlobalVariablesOptions.soundVolume = GlobalVariablesOptions.soundVolume - audioBonusLeft;
+		}
+		if (keyboard_check(vk_right))
+		{
+			audioMinusLeftDelay = 0;
+			audioMinusRightDelay++
+			if (audioMinusRightDelay = 1000) {audioBonusRight = 0.03;}
+			GlobalVariablesOptions.soundVolume = GlobalVariablesOptions.soundVolume + audioBonusRight;
+		}
+		if (keyboard_check(vk_backspace))
+		{
+			audioMinusLeftDelay = 0;
+			audioMinusRightDelay = 0;
+			audioBonusLeft = 0.01;
+			audioBonusRight = 0.01;
+			volumeSlider2_control = false;
+			audioSelect_control = true;
+		}
+		if (audioMinusLeftDelay == 0) {audioBonusLeft = 0.01;}
+		if (audioMinusRightDelay == 0) {audioBonusRight = 0.01;}
 	}
-	if (keyboard_check(vk_right))
-	{
-		audioMinusLeftDelay = 0;
-		audioMinusRightDelay++
-		if (audioMinusRightDelay = 1000) {audioBonusRight = 0.03;}
-		GlobalVariablesOptions.soundVolume = GlobalVariablesOptions.soundVolume + audioBonusRight;
-	}
-	if (keyboard_check(vk_backspace))
-	{
-		audioMinusLeftDelay = 0;
-		audioMinusRightDelay = 0;
-		audioBonusLeft = 0.01;
-		audioBonusRight = 0.01;
-		volumeSlider2_control = false;
-		audioSelect_control = true;
-	}
-	if (audioMinusLeftDelay == 0) {audioBonusLeft = 0.01;}
-	if (audioMinusRightDelay == 0) {audioBonusRight = 0.01;}
 }
 /// option select +
 switch (optionSelect_mode)

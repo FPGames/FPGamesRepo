@@ -1,5 +1,6 @@
 /// @description Variables
 /// Menu setup
+controlDevice = 0;
 optionSelectBackground = 3;
 enum OPTIONS_SELECT
 {

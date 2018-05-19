@@ -12,9 +12,12 @@ soundControl = false;
 //audio_group_load(MusicGroup);
 
 // menu and game varialbes
+addMMButtondelay = 0;
+addOptionsDelay = 1;
 optionsExist = false;
 mainMenuExist = true;
 mainMenuButtonsExist = true;
+
 /// controls option variables
 red_up = "SetKey";
 red_down = "SetKey";

@@ -28,21 +28,30 @@ else
 }
 
 // main menu and options draw
-if (GlobalVariablesOptions.optionsExist == true)
+if (optionsExist == true) && (addOptionsDelay == 0)
 {
 	instance_create_layer(960,540,"Options_Background",o_Options);
+	addOptionsDelay = 1;
 }
-else
+else if (optionsExist == false)
 {
-	instance_destroy(o_Options)
+	instance_destroy(o_Options);
 }
-if (GlobalVariablesOptions.mainMenuButtonsExist == true)
+if (mainMenuButtonsExist == true) && (addMMButtondelay == 0)
 {
-	
+	instance_create_layer(32,320,"Main_Menu",o_StartGame);
+	instance_create_layer(32,448,"Main_Menu",o_ContinueGame);
+	instance_create_layer(32,576,"Main_Menu",o_OptionsButton);
+	addMMButtondelay = 1;
 }
+else if (mainMenuButtonsExist == false)
+{
 	instance_destroy(o_OptionsButton);
 	instance_destroy(o_StartGame);
 	instance_destroy(o_ContinueGame);
+	instance_destroy(o_QuitButton);
+}
+	
 // volume increase and decrease sound
 /////audio_sound_gain(mCave, musicVolume,1);
 ///////audio_sound_gain(mForest, musicVolume,1);
