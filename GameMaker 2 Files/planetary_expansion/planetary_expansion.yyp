@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "4f4708bb-88f6-4739-babe-6b75f638a31a",
+            "Value": {
+                "id": "f7f6a85d-52e3-4cc8-9648-41e9c1c3b3a5",
+                "resourcePath": "sounds\\menuThemeSound\\menuThemeSound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "555f7742-c3ac-445d-ae33-7f8f88a80b37",
             "Value": {
                 "id": "9ae622cc-e2e5-4519-85ae-ab7d65c09893",
@@ -179,6 +187,14 @@
             "Value": {
                 "id": "11e82eb3-ad61-4bbc-b929-bc55b6ffce9d",
                 "resourcePath": "sprites\\s_AudioBackground\\s_AudioBackground.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8f915924-3077-41df-9978-7b361acd025f",
+            "Value": {
+                "id": "d4d61e00-c608-45a1-9d10-4e09aaf631ef",
+                "resourcePath": "sprites\\s_MenuGradient\\s_MenuGradient.yy",
                 "resourceType": "GMSprite"
             }
         },
