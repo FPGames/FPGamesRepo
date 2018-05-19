@@ -79,6 +79,22 @@
             }
         },
         {
+            "Key": "24ea68a2-db39-4234-814d-0c4f8f5845c1",
+            "Value": {
+                "id": "ae77bc76-6885-4454-9051-c41eb106b420",
+                "resourcePath": "sprites\\s_MenuButtonCredits\\s_MenuButtonCredits.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2d8d7294-2e74-4648-906a-cde1a55002e9",
+            "Value": {
+                "id": "5e14442a-ac47-4a2e-a54d-c121a7de437c",
+                "resourcePath": "objects\\o_CreditsButton\\o_CreditsButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "39440c76-dc90-4984-8bce-983fbb4bf991",
             "Value": {
                 "id": "eb25622c-d60a-4b0b-8723-781fff815d56",
@@ -108,6 +124,14 @@
                 "id": "7443762d-c138-4c65-99a3-8fa98d693f35",
                 "resourcePath": "sprites\\s_MenuButtonContinue\\s_MenuButtonContinue.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4e19ce19-c8a9-428f-a0c3-e009795471ee",
+            "Value": {
+                "id": "043f8119-d95a-4d04-9979-26a0b4829542",
+                "resourcePath": "objects\\o_FadeIn\\o_FadeIn.yy",
+                "resourceType": "GMObject"
             }
         },
         {

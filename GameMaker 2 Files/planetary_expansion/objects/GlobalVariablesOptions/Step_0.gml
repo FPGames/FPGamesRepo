@@ -42,7 +42,6 @@ if (mainMenuButtonsExist == true) && (addMMButtondelay == 0)
 	instance_create_layer(32,320,"Main_Menu",o_StartGame);
 	instance_create_layer(32,448,"Main_Menu",o_ContinueGame);
 	instance_create_layer(32,576,"Main_Menu",o_OptionsButton);
-	instance_create_layer(736,960,"Main_Menu",o_QuitButton);
 	addMMButtondelay = 1;
 }
 else if (mainMenuButtonsExist == false)
