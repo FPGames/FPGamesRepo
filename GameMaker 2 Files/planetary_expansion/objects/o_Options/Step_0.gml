@@ -177,6 +177,8 @@ switch (optionSelect_mode)
 		sprite_index = s_AudioBackground;
 		if (audioMenuDelay == 0)
 		{
+			instance_create_layer(650,950,"ACV_Buttons",o_Back);
+			
 			instance_create_layer((GlobalVariablesOptions.musicVolume*100*2)+952,425,"Volume_Slider", o_VolumeSliderMusic);
 		    instance_create_layer((GlobalVariablesOptions.soundVolume*100*2)+952,545,"Volume_Slider", o_VolumeSliderSound);
 		    instance_create_layer(1052,425,"Volume_Slider_Background", o_VolumeSliderBackground);
@@ -237,10 +239,11 @@ else if (optionSelect_committed != 3)
 if (optionSelect_cursor == 3) {optionSelect_mode = OPTIONS_SELECT.AUDIO;}
 else if(optionSelect_cursor == 2) {optionSelect_mode = OPTIONS_SELECT.CONTROLS;}
 else if(optionSelect_cursor == 1) {optionSelect_mode = OPTIONS_SELECT.VIDEO;}
+
 // music, sound and track checker
 //if (GlobalVariablesOptions.musicPlay) {MOFN = On;}
 //else if (!GlobalVariablesOptions.musicPlay) {MOFN = Off;}
 //if (GlobalVariablesOptions.soundPlay) {SOFN = On;}
 //else if (!GlobalVariablesOptions.soundPlay) {SOFN = Off;}
-if (GlobalVariablesOptions.musicTrack == 1) {Track = "Cave";}
-else if (GlobalVariablesOptions.musicTrack == 2) {Track = "Forest";}
+//if (GlobalVariablesOptions.musicTrack == 1) {Track = "Cave";}
+//else if (GlobalVariablesOptions.musicTrack == 2) {Track = "Forest";}

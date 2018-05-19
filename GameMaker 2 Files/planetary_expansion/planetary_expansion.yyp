@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "12fe1de1-8f29-419b-831c-19545618dec5",
+            "Value": {
+                "id": "19522d05-867b-4422-9df6-b87084ce6735",
+                "resourcePath": "sprites\\s_On\\s_On.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "16e7d873-3a5e-46c2-b08e-d28f9b6b2f24",
             "Value": {
                 "id": "ee8d898d-01c2-4276-8686-db4ed155ce0a",
@@ -76,6 +84,14 @@
                 "id": "da667f6a-b839-4665-b8f2-5b32e90e3f18",
                 "resourcePath": "sprites\\s_VolumeSliderBackground\\s_VolumeSliderBackground.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "234de8d6-3cd5-4221-9a88-2299864fe982",
+            "Value": {
+                "id": "a923dc69-fa1f-4a0d-860f-245246cdb852",
+                "resourcePath": "objects\\o_OffOnSound\\o_OffOnSound.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -148,6 +164,14 @@
                 "id": "9ae622cc-e2e5-4519-85ae-ab7d65c09893",
                 "resourcePath": "sprites\\s_ControlsBackground\\s_ControlsBackground.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5aa60543-a40b-4748-a594-9cb682ef1e3f",
+            "Value": {
+                "id": "faa07afd-86db-46c5-8fd5-66a9b42f87c7",
+                "resourcePath": "objects\\o_OffOnMusic\\o_OffOnMusic.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -236,6 +260,14 @@
                 "id": "caebf72b-73a3-41fd-aa56-84dbce24fa26",
                 "resourcePath": "views\\9aa07e94-063e-4fc5-bed3-6f02413ba087.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9cd9011c-b29e-42e9-91c0-4cb348537f89",
+            "Value": {
+                "id": "1a52c058-448b-4f62-9425-0e28d9215a81",
+                "resourcePath": "sprites\\s_AudioButton\\s_AudioButton.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -391,10 +423,26 @@
             }
         },
         {
+            "Key": "ce6f735c-712d-465c-8705-ed319a401ca8",
+            "Value": {
+                "id": "174e4334-70f5-4d48-ab27-c16191580e04",
+                "resourcePath": "sprites\\s_VideoButton\\s_VideoButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cff2da2f-2ceb-4fc6-9d75-d0336d97fa6a",
             "Value": {
                 "id": "1072a282-ec96-4675-8b80-257533ecf079",
                 "resourcePath": "views\\cff2da2f-2ceb-4fc6-9d75-d0336d97fa6a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d00fb09d-41ef-495b-a460-2e3dc2dabbac",
+            "Value": {
+                "id": "2324ed03-10e7-4070-a717-e99c0aade7f8",
+                "resourcePath": "views\\d00fb09d-41ef-495b-a460-2e3dc2dabbac.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -455,11 +503,27 @@
             }
         },
         {
+            "Key": "e4886cd7-14d9-47d3-a47e-001f99443856",
+            "Value": {
+                "id": "75f23a97-1b6b-4858-a4be-986d805fb09b",
+                "resourcePath": "sprites\\s_ControlsButton\\s_ControlsButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e6548b03-56d9-494f-8072-d9bf9db4b5e0",
             "Value": {
                 "id": "29e1d16b-a9d9-46b7-8cd3-f7010c738df9",
                 "resourcePath": "views\\e6548b03-56d9-494f-8072-d9bf9db4b5e0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e9258d78-b6a7-4db7-bfc7-6a8cc3ee36cf",
+            "Value": {
+                "id": "3f47579e-5c85-4f73-8618-7a7325814ebf",
+                "resourcePath": "sprites\\s_Off\\s_Off.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
