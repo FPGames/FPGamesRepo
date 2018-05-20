@@ -209,7 +209,7 @@ switch (optionSelect_mode)
 	case OPTIONS_SELECT.BACK:
 	{
 		audioOptionsDraw = false;
-		instance_destroy(o_Option); 
+		instance_destroy(o_Options); 
 		//instance_create_layer(400,400,"Menu", oMenu);
 		break;
 	}

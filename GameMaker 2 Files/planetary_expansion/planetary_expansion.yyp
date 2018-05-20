@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0915a704-54ad-45a8-98f4-78751023f7cc",
+            "Value": {
+                "id": "7eb2cead-e4ba-446e-9fae-d5ab34cb933c",
+                "resourcePath": "sprites\\s_PlanetImage\\s_PlanetImage.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "096ea829-5be7-4a42-bce4-028de5e09058",
             "Value": {
                 "id": "bba54630-5fe5-45ed-b708-a535719adec9",
