@@ -9,12 +9,6 @@ if (mouse_check_button(mb_any))
 	controlDevice = 0;
 }
 /// mouse controls
-if position_meeting(mouse_x, mouse_y, o_Back) && mouse_check_button_pressed(mb_left)
-{
-	GlobalVariablesOptions.optionsExist = false;
-	GlobalVariablesOptions.mainMenuButtonsExist = true;
-	GlobalVariablesOptions.addMMButtondelay = 0;
-}
 /// keyboard Controls
 // option selecting
 if (controlDevice == 1)
@@ -24,12 +18,12 @@ if (controlDevice == 1)
 			if (keyboard_check_pressed(vk_up))
 			{
 				optionSelect_cursor++;
-				if (optionSelect_cursor >= optionSelect_items) optionSelect_cursor = 0;
+				if (optionSelect_cursor >= 3) optionSelect_cursor = 0;
 			}
 			if (keyboard_check_pressed(vk_down))
 			{
 				optionSelect_cursor--;
-				if (optionSelect_cursor < 0) optionSelect_cursor = optionSelect_items-1;
+				if (optionSelect_cursor < 0) optionSelect_cursor = 3
 			}
 			if (keyboard_check_pressed(vk_enter))
 			{
@@ -177,50 +171,56 @@ switch (optionSelect_mode)
 		sprite_index = s_AudioBackground;
 		if (audioMenuDelay == 0)
 		{
-			instance_create_layer(650,950,"ACV_Buttons",o_Back);
-			
 			instance_create_layer((GlobalVariablesOptions.musicVolume*100*2)+952,425,"Volume_Slider", o_VolumeSliderMusic);
 		    instance_create_layer((GlobalVariablesOptions.soundVolume*100*2)+952,545,"Volume_Slider", o_VolumeSliderSound);
 		    instance_create_layer(1052,425,"Volume_Slider_Background", o_VolumeSliderBackground);
 		    instance_create_layer(1052,545,"Volume_Slider_Background", o_VolumeSliderBackground);
+			instance_create_layer(930,284,"ACV_Buttons",o_OffOnMusic);
 			audioMenuDelay = 1;
 		}
 		break;
 	}
 	case OPTIONS_SELECT.CONTROLS:
 	{
-		audioMenuDelay = 0;
-		instance_destroy(o_VolumeSliderSound); 
-		instance_destroy(o_VolumeSliderMusic); 
-		instance_destroy(o_VolumeSliderBackground); 
 		audioOptionsDraw = false;
 		videoOptionsDraw = false;
 		controlOptionsDraw = true;
 		sprite_index = s_ControlsBackground;
 		controlSelect_control = true;
+		if (controlMenuDelay = 0)
+		{
+			controlMenuDelay = 1;
+		}
 		break;
 	}
 	case OPTIONS_SELECT.VIDEO:
 	{
-		audioMenuDelay = 0;
-		instance_destroy(o_VolumeSliderSound); 
-		instance_destroy(o_VolumeSliderMusic); 
-		instance_destroy(o_VolumeSliderBackground); 
 		audioOptionsDraw = false;
 		controlOptionsDraw = false;
 		videoOptionsDraw = true;
 		//sprite_index = s_VideoBackground;
 		videoSelect_control = true;
+		if (videoMenuDelay = 0)
+		{
+			videoMenuDelay = 1;
+		}
 		break;
 	}
 	case OPTIONS_SELECT.BACK:
 	{
-		audioMenuDelay = 0;
 		audioOptionsDraw = false;
 		instance_destroy(o_Option); 
 		//instance_create_layer(400,400,"Menu", oMenu);
 		break;
 	}
+}
+if (optionSelect_mode != OPTIONS_SELECT.AUDIO)
+{
+	instance_destroy(o_VolumeSliderSound); 
+	instance_destroy(o_VolumeSliderMusic); 
+	instance_destroy(o_VolumeSliderBackground); 
+	instance_destroy(o_OffOnMusic);
+	instance_destroy(o_OffOnSound);
 }
 if (optionSelect_committed != -1)
 {
@@ -246,4 +246,4 @@ else if(optionSelect_cursor == 1) {optionSelect_mode = OPTIONS_SELECT.VIDEO;}
 //if (GlobalVariablesOptions.soundPlay) {SOFN = On;}
 //else if (!GlobalVariablesOptions.soundPlay) {SOFN = Off;}
 //if (GlobalVariablesOptions.musicTrack == 1) {Track = "Cave";}
-//else if (GlobalVariablesOptions.musicTrack == 2) {Track = "Forest";}
+//else if (GlobalVariablesOptions.musicTrack == 2) {Track = "Forest";}	

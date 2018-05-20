@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "641a98bb-5d85-4dac-a9d8-ada1bf7087d4",
+            "Value": {
+                "id": "2d9afedc-ea3a-469b-91f3-dd74c024983f",
+                "resourcePath": "objects\\o_VideoButton\\o_VideoButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "739079ec-1560-4482-a3b5-4b77d71f34d3",
             "Value": {
                 "id": "56371499-6dd9-4e3e-b34a-3ffc2c972582",
@@ -362,7 +370,7 @@
             "Key": "bacfbc42-a9c9-45d6-8e50-a9edd5ff6442",
             "Value": {
                 "id": "6c529544-b650-4162-bc78-ecf19d9d3acf",
-                "resourcePath": "objects\\o_Back\\o_Back.yy",
+                "resourcePath": "objects\\o_OptionBack\\o_OptionBack.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -511,11 +519,27 @@
             }
         },
         {
+            "Key": "e507a8a1-b504-4d4b-9346-abb7a78c9bd8",
+            "Value": {
+                "id": "2c74e9e8-532a-495f-9d09-ad8c8ed3e719",
+                "resourcePath": "objects\\o_\\o_.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e6548b03-56d9-494f-8072-d9bf9db4b5e0",
             "Value": {
                 "id": "29e1d16b-a9d9-46b7-8cd3-f7010c738df9",
                 "resourcePath": "views\\e6548b03-56d9-494f-8072-d9bf9db4b5e0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e6bf8813-8972-4e1f-bc4c-68d37ed931b7",
+            "Value": {
+                "id": "96ade817-29be-4985-95fe-4c35ddf37a35",
+                "resourcePath": "objects\\o_ControlButton\\o_ControlButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -564,6 +588,14 @@
                 "id": "aef5f02e-d77b-44d0-983c-d6f3428f521b",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "facfce1a-6439-42e6-8bab-7db57801c4da",
+            "Value": {
+                "id": "c2636ab2-dda7-4486-89b3-b490c1dece8a",
+                "resourcePath": "objects\\o_AudioButton\\o_AudioButton.yy",
+                "resourceType": "GMObject"
             }
         }
     ],

@@ -31,17 +31,27 @@ else
 if (optionsExist == true) && (addOptionsDelay == 0)
 {
 	instance_create_layer(960,540,"Options_Background",o_Options);
+	instance_create_layer(1600,160,"Option_Select_Buttons",o_AudioButton);
+	instance_create_layer(1600,288,"Option_Select_Buttons",o_ControlButton);
+	instance_create_layer(1600,416,"Option_Select_Buttons",o_VideoButton);
+	instance_create_layer(650,950,"Option_Select_Buttons",o_OptionBack);
 	addOptionsDelay = 1;
 }
 else if (optionsExist == false)
 {
 	instance_destroy(o_Options);
+	instance_destroy(o_AudioButton);
+	instance_destroy(o_ControlButton);
+	instance_destroy(o_VideoButton);
+	instance_destroy(o_OptionBack);
 }
 if (mainMenuButtonsExist == true) && (addMMButtondelay == 0)
 {
 	instance_create_layer(32,320,"Main_Menu",o_StartGame);
 	instance_create_layer(32,448,"Main_Menu",o_ContinueGame);
 	instance_create_layer(32,576,"Main_Menu",o_OptionsButton);
+	instance_create_layer(32,960,"Main_Menu",o_QuitButton);
+	instance_create_layer(256,960,"Main_Menu",o_CreditsButton);
 	addMMButtondelay = 1;
 }
 else if (mainMenuButtonsExist == false)
@@ -50,6 +60,7 @@ else if (mainMenuButtonsExist == false)
 	instance_destroy(o_StartGame);
 	instance_destroy(o_ContinueGame);
 	instance_destroy(o_QuitButton);
+	instance_destroy(o_CreditsButton);
 }
 	
 // volume increase and decrease sound

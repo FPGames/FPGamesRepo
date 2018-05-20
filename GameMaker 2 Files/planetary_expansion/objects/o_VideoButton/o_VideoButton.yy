@@ -1,18 +1,18 @@
 {
-    "id": "5aa60543-a40b-4748-a594-9cb682ef1e3f",
+    "id": "641a98bb-5d85-4dac-a9d8-ada1bf7087d4",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_OffOnMusic",
+    "name": "o_VideoButton",
     "eventList": [
         {
-            "id": "d16ac9e9-dc47-42ed-9a97-25791c303d80",
+            "id": "82f8e453-b2d2-4bb1-b9c0-df29dc7fa872",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "5aa60543-a40b-4748-a594-9cb682ef1e3f"
+            "m_owner": "641a98bb-5d85-4dac-a9d8-ada1bf7087d4"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "12fe1de1-8f29-419b-831c-19545618dec5",
+    "spriteId": "ce6f735c-712d-465c-8705-ed319a401ca8",
     "visible": true
 }
