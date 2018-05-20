@@ -1,7 +1,9 @@
 /// @description Changing image blend for hovering
+if (instance_exists(o_Options))
+{
 if (position_meeting(mouse_x, mouse_y, o_AudioButton)) or (o_Options.optionSelect_cursor == 3)
 {
-	image_blend = c_yellow;
+	image_blend = c_green;
 	o_Options.optionSelect_cursor = 3;
 }
 else image_blend = -1;
@@ -14,4 +16,5 @@ if (o_Options.optionSelect_cursor = 3) && (keyboard_check_pressed(vk_enter))
 {
 	o_Options.optionSelect_mode = OPTIONS_SELECT.AUDIO;
 	o_Options.audioMenuDelay = 0;
+}
 }

@@ -176,6 +176,7 @@ switch (optionSelect_mode)
 		    instance_create_layer(1052,425,"Volume_Slider_Background", o_VolumeSliderBackground);
 		    instance_create_layer(1052,545,"Volume_Slider_Background", o_VolumeSliderBackground);
 			instance_create_layer(930,284,"ACV_Buttons",o_OffOnMusic);
+			instance_create_layer(930,555,"ACV_Buttons",o_OffOnSound);
 			audioMenuDelay = 1;
 		}
 		break;
@@ -195,9 +196,6 @@ switch (optionSelect_mode)
 	}
 	case OPTIONS_SELECT.VIDEO:
 	{
-		audioOptionsDraw = false;
-		controlOptionsDraw = false;
-		videoOptionsDraw = true;
 		//sprite_index = s_VideoBackground;
 		videoSelect_control = true;
 		if (videoMenuDelay = 0)
@@ -208,8 +206,9 @@ switch (optionSelect_mode)
 	}
 	case OPTIONS_SELECT.BACK:
 	{
-		audioOptionsDraw = false;
-		instance_destroy(o_Options); 
+		GlobalVariablesOptions.mainMenuButtonsExist = true;
+		GlobalVariablesOptions.addMMButtondelay = 0;
+		GlobalVariablesOptions. optionsExist = false;
 		//instance_create_layer(400,400,"Menu", oMenu);
 		break;
 	}
