@@ -10,12 +10,12 @@
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 2,
+            "enumb": 0,
             "eventtype": 3,
             "m_owner": "d062207b-e911-4c71-90b5-35085d721ed9"
         },
         {
-            "id": "19df7d9e-b839-42a3-8107-08aebdbaf009",
+            "id": "de98c09b-f2f1-463f-b7a1-0db7b3fcecf2",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

@@ -62,9 +62,8 @@ else if (mainMenuButtonsExist == false)
 	instance_destroy(o_QuitButton);
 	instance_destroy(o_CreditsButton);
 }
-	
 // volume increase and decrease sound
-/////audio_sound_gain(mCave, musicVolume,1);
+audio_sound_gain(menuThemeSound, musicVolume,1);
 ///////audio_sound_gain(mForest, musicVolume,1);
 // controls option variables
 red_up = W_key;

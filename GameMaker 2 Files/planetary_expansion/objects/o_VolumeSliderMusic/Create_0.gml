@@ -1,3 +1,3 @@
-/// @description Variables
-// You can write your code in this editor
-held = false;
+/// @description image speed
+image_speed = 0;
+image_index = 0;
