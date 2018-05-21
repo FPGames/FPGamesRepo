@@ -202,7 +202,7 @@
             "name": "Planet",
             "id": "df9453ec-fc1e-4984-9b4e-8de809f3293c",
             "assets": [
-{"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_7E6A9B08","id": "e84ded29-649f-4c30-ab75-56b161bf5e89","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","spriteId": "0915a704-54ad-45a8-98f4-78751023f7cc","userdefined_animFPS": false,"x": 1120,"y": 0}
+{"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_7E6A9B08","id": "e84ded29-649f-4c30-ab75-56b161bf5e89","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","spriteId": "0915a704-54ad-45a8-98f4-78751023f7cc","userdefined_animFPS": false,"x": 1125,"y": 0}
             ],
             "depth": 700,
             "grid_x": 32,
@@ -270,7 +270,7 @@
             "grid_y": 32,
             "hierarchyFrozen": false,
             "hierarchyVisible": true,
-            "hspeed": 1,
+            "hspeed": 0,
             "htiled": true,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
@@ -288,7 +288,7 @@
             "userdefined_animFPS": false,
             "userdefined_depth": false,
             "visible": true,
-            "vspeed": 1,
+            "vspeed": 0,
             "vtiled": true,
             "x": 0,
             "y": 0
