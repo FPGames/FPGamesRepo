@@ -2,8 +2,9 @@
 /// audio option variables
 musicPlay = true;
 soundPlay = true;
-musicVolume = 0.8;
+musicVolume = 0.25;
 soundVolume = 0.25;
+musicGainVolume = 0;
 musicTrack = 1;
 delay1 = 0;
 delay2 = 0;
@@ -17,6 +18,7 @@ addOptionsDelay = 1;
 optionsExist = false;
 mainMenuExist = true;
 mainMenuButtonsExist = true;
+musicFadeIn = true;
 
 /// controls option variables
 red_up = "SetKey";
@@ -25,6 +27,10 @@ red_left = "SetKey";
 red_right = "SetKey";
 red_aim = "SetKey";
 red_shoot = "SetKey";
+
+// video settings
+displayMode = 0; // 0 is fullscreen 1 is windowed 2 is windowed fullscreen
+
 
 // display character control variables
 playerControlsDisplay = "SetPLayer";

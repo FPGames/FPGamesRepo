@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "21608d13-1816-4d82-aad9-1615e40a70d1",
+            "Value": {
+                "id": "33e356af-a46a-4b23-ae8a-3f877739a422",
+                "resourcePath": "sprites\\s_VideoBackground\\s_VideoBackground.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "22ce6443-21bd-49b6-95b5-7991e754a32b",
             "Value": {
                 "id": "da667f6a-b839-4665-b8f2-5b32e90e3f18",
@@ -124,6 +132,14 @@
                 "id": "5e14442a-ac47-4a2e-a54d-c121a7de437c",
                 "resourcePath": "objects\\o_CreditsButton\\o_CreditsButton.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3941f9c0-bc93-4f94-8392-a68186b29a30",
+            "Value": {
+                "id": "d25438ec-e969-448d-a22f-1724bf6ec5ce",
+                "resourcePath": "sprites\\s_DisplayWindow\\s_DisplayWindow.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -172,6 +188,14 @@
                 "id": "f7f6a85d-52e3-4cc8-9648-41e9c1c3b3a5",
                 "resourcePath": "sounds\\menuThemeSound\\menuThemeSound.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "52a9e898-a2fe-426b-9d27-a051f9d71647",
+            "Value": {
+                "id": "c0330122-90a7-463f-9e16-cb1fafb7b8cd",
+                "resourcePath": "objects\\object20\\object20.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -431,6 +455,14 @@
             }
         },
         {
+            "Key": "c8ffe8bd-b713-43d7-b901-f8db17bd90b7",
+            "Value": {
+                "id": "d41f3893-9c40-49f8-a9e8-548e44213bdc",
+                "resourcePath": "views\\c8ffe8bd-b713-43d7-b901-f8db17bd90b7.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "63813a0e-bd33-4109-a7d1-eb20e8533a77",
@@ -538,7 +570,7 @@
             "Key": "e507a8a1-b504-4d4b-9346-abb7a78c9bd8",
             "Value": {
                 "id": "2c74e9e8-532a-495f-9d09-ad8c8ed3e719",
-                "resourcePath": "objects\\o_test\\o_test.yy",
+                "resourcePath": "objects\\o_DisplayWindow\\o_DisplayWindow.yy",
                 "resourceType": "GMObject"
             }
         },

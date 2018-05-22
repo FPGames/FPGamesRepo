@@ -28,9 +28,10 @@ switch (optionSelect_mode)
 	}
 	case OPTIONS_SELECT.VIDEO:
 	{
-		//sprite_index = s_VideoBackground;
+		sprite_index = s_VideoBackground;
 		if (videoMenuDelay = 0)
 		{
+			instance_create_layer(930,284,"ACV_Buttons",o_DisplayWindow);
 			videoMenuDelay = 1;
 		}
 		break;
@@ -51,6 +52,10 @@ if (optionSelect_mode != OPTIONS_SELECT.AUDIO)
 	instance_destroy(o_VolumeSliderBackgroundSound); 
 	instance_destroy(o_OffOnMusic);
 	instance_destroy(o_OffOnSound);
+}
+if (optionSelect_mode != OPTIONS_SELECT.VIDEO)
+{
+	instance_destroy(o_DisplayWindow);
 }
 // music, sound and track checker
 //if (GlobalVariablesOptions.musicPlay) {MOFN = On;}
