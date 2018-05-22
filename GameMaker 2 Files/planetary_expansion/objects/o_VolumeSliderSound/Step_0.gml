@@ -1,20 +1,11 @@
-/// @description Temporary sound file
-// You can write your code in this editor
-if (o_Options.audioSelect_cursor == 1)
+/// @description Mouse volume slider 
+x = o_VolumeSliderBackgroundSound.xVolumeButtonSprite;
+y = o_VolumeSliderBackgroundSound.y;
+if position_meeting(mouse_x, mouse_y, o_VolumeSliderSound)
 {
-	sprite_index = s_VolumeSlider2;
+	image_index = 1;
 }
-else
+else if !position_meeting(mouse_x, mouse_y, o_VolumeSliderSound)
 {
-	sprite_index = s_VolumeSlider1;
+	image_index = 0;
 }
-if (GlobalVariablesOptions.soundVolume < 0)
-{
-	GlobalVariablesOptions.soundVolume = 0;
-}
-if (GlobalVariablesOptions.soundVolume > 1)
-{
-	GlobalVariablesOptions.soundVolume = 1;
-}
-x = (GlobalVariablesOptions.soundVolume*100*2)+952
-

@@ -39,11 +39,27 @@
             }
         },
         {
+            "Key": "0915a704-54ad-45a8-98f4-78751023f7cc",
+            "Value": {
+                "id": "7eb2cead-e4ba-446e-9fae-d5ab34cb933c",
+                "resourcePath": "sprites\\s_PlanetImage\\s_PlanetImage.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "096ea829-5be7-4a42-bce4-028de5e09058",
             "Value": {
                 "id": "bba54630-5fe5-45ed-b708-a535719adec9",
                 "resourcePath": "views\\096ea829-5be7-4a42-bce4-028de5e09058.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "0ab8b5a2-61bd-41a0-a8a8-867e3c4b3d3c",
+            "Value": {
+                "id": "cba62bee-676a-49c7-b878-ed0ec4860cac",
+                "resourcePath": "objects\\o_VolumeSliderBackgroundSound\\o_VolumeSliderBackgroundSound.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -354,7 +370,7 @@
             "Key": "b1c84505-22e6-4cd4-98d5-df0aa55a45bf",
             "Value": {
                 "id": "ff528708-73d9-491b-958d-9f354741fc7c",
-                "resourcePath": "sprites\\s_VolumeSlider1\\s_VolumeSlider1.yy",
+                "resourcePath": "sprites\\s_VolumeSlider\\s_VolumeSlider.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -522,7 +538,7 @@
             "Key": "e507a8a1-b504-4d4b-9346-abb7a78c9bd8",
             "Value": {
                 "id": "2c74e9e8-532a-495f-9d09-ad8c8ed3e719",
-                "resourcePath": "objects\\o_\\o_.yy",
+                "resourcePath": "objects\\o_test\\o_test.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -562,16 +578,8 @@
             "Key": "ec5939e6-7702-43bd-8b52-cf418261b800",
             "Value": {
                 "id": "81151e5c-cfb0-4cfa-b2b2-155e5f59080f",
-                "resourcePath": "objects\\o_VolumeSliderBackground\\o_VolumeSliderBackground.yy",
+                "resourcePath": "objects\\o_VolumeSliderBackgroundMusic\\o_VolumeSliderBackgroundMusic.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "f0f7f596-0b7e-4cdc-b1ab-b1fb23bc13b6",
-            "Value": {
-                "id": "10efaac3-c1a0-474c-9602-29082cd39ce2",
-                "resourcePath": "sprites\\s_VolumeSlider2\\s_VolumeSlider2.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
