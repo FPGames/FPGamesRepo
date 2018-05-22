@@ -431,6 +431,14 @@
             }
         },
         {
+            "Key": "beacd986-3cfc-413b-922a-7bd348604475",
+            "Value": {
+                "id": "8ce9167c-f8c3-4bea-affc-d6464d7c923b",
+                "resourcePath": "rooms\\greasy_grove_rm\\greasy_grove_rm.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "c3070f59-8933-4ad2-a4d0-59b373643db4",
             "Value": {
                 "id": "64ddbebc-0840-4d73-8d85-899d781bc0dc",
