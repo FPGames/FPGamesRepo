@@ -4,7 +4,7 @@ if (musicPlay == true)
 {
 	if (musicTrack == 2) 
 	{
-		////audio_pause_sound(mCave);
+		//audio_pause_sound(mCave);
 		delay2 = 0;
 		delay1++;
 		/////if (delay1 == 2) {audio_play_sound(mForest,1000,true);}
@@ -12,10 +12,10 @@ if (musicPlay == true)
 	}
 	if (musicTrack == 1) 
 	{
-		/////audio_pause_sound(mForest);
+		//audio_pause_sound(menuThemeSound);
 		delay1 = 0;
 		delay2++;
-		/////if (delay2 == 2) {audio_play_sound(mCave,1000,true);}
+		if (delay2 == 2) {audio_play_sound(menuThemeSound,1000,true);}
 	}
 	//audio_resume_sync_group(MusicGroup);
 }
@@ -24,7 +24,7 @@ else
 	delay1 = 0;
 	delay2 = 0;
 	//audio_pause_sound(mForest);
-	//audio_pause_sound(mCave);
+	audio_pause_sound(menuThemeSound);
 }
 
 // main menu and options draw
@@ -62,9 +62,8 @@ else if (mainMenuButtonsExist == false)
 	instance_destroy(o_QuitButton);
 	instance_destroy(o_CreditsButton);
 }
-	
 // volume increase and decrease sound
-/////audio_sound_gain(mCave, musicVolume,1);
+audio_sound_gain(menuThemeSound, musicVolume,1);
 ///////audio_sound_gain(mForest, musicVolume,1);
 // controls option variables
 red_up = W_key;
