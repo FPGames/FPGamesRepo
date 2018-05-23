@@ -2,7 +2,7 @@
 /// audio option variables
 musicPlay = true;
 soundPlay = true;
-musicVolume = 0.25;
+musicVolume = 0.15;
 soundVolume = 0.25;
 musicGainVolume = 0;
 musicTrack = 1;

@@ -15,7 +15,7 @@ if (musicPlay == true)
 		//audio_pause_sound(menuThemeSound);
 		delay1 = 0;
 		delay2++;
-		if (delay2 == 2) {audio_play_sound(menuThemeSound,1000,true);}
+		if (delay2 == 2) {audio_play_sound(menuThemeSound,1,true);}
 	}
 	//audio_resume_sync_group(MusicGroup);
 }
