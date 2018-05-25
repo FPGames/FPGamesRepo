@@ -30,6 +30,7 @@ red_shoot = "SetKey";
 
 // video settings
 displayMode = 0; // 0 is fullscreen 1 is windowed 2 is windowed fullscreen
+frameCap = false;
 
 
 // display character control variables

@@ -154,7 +154,7 @@
             "Key": "3941f9c0-bc93-4f94-8392-a68186b29a30",
             "Value": {
                 "id": "d25438ec-e969-448d-a22f-1724bf6ec5ce",
-                "resourcePath": "sprites\\s_DisplayWindow\\s_DisplayWindow.yy",
+                "resourcePath": "sprites\\s_FullScreen\\s_FullScreen.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -204,6 +204,14 @@
                 "id": "043f8119-d95a-4d04-9979-26a0b4829542",
                 "resourcePath": "objects\\o_FadeIn\\o_FadeIn.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4ea6e60b-b587-4aac-afc7-ef58b5dfaac4",
+            "Value": {
+                "id": "5dd75158-3319-47ab-8459-b4c10d033a3c",
+                "resourcePath": "sprites\\s_Windowed\\s_Windowed.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -607,6 +615,14 @@
             }
         },
         {
+            "Key": "d7ee87bd-508a-4c91-9a0b-9e63ddb769bd",
+            "Value": {
+                "id": "792fb23c-f121-4afa-ac34-231af4d038d0",
+                "resourcePath": "sprites\\s_WindowedFullscreen\\s_WindowedFullscreen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d8e47c28-723b-4ef2-95a5-a12fab2dfec5",
             "Value": {
                 "id": "3f37e59e-e9a3-4e59-95e4-c80c13f24f0a",
@@ -651,6 +667,14 @@
             "Value": {
                 "id": "2c74e9e8-532a-495f-9d09-ad8c8ed3e719",
                 "resourcePath": "objects\\o_DisplayWindow\\o_DisplayWindow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e5cad3e2-6612-4629-9392-5c0edf92c366",
+            "Value": {
+                "id": "3fb90b94-63ab-4c8d-a498-37908f9f1868",
+                "resourcePath": "objects\\o_FrameCap\\o_FrameCap.yy",
                 "resourceType": "GMObject"
             }
         },

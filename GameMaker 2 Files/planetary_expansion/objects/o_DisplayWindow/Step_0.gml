@@ -14,13 +14,13 @@ if position_meeting(mouse_x, mouse_y, o_DisplayWindow) && mouse_check_button_pre
 }
 if GlobalVariablesOptions.displayMode = 0
 {
-	image_index = 0;
+	sprite_index = s_FullScreen;
 }
 if GlobalVariablesOptions.displayMode = 1
 {
-	image_index = 1;
+	sprite_index = s_Windowed;
 }
 if GlobalVariablesOptions.displayMode = 2
 {
-	image_index = 2;
+	sprite_index = s_WindowedFullscreen;
 }
