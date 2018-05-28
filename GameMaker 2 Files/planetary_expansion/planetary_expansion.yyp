@@ -375,6 +375,22 @@
             }
         },
         {
+            "Key": "9d3c4a4a-6095-4a83-8da3-f74d011dd056",
+            "Value": {
+                "id": "f1169331-c489-4f5b-a5c6-6bbff5411070",
+                "resourcePath": "objects\\o_ui_planetName\\o_ui_planetName.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9e2fa236-43b7-4632-93a7-1022414ff11a",
+            "Value": {
+                "id": "072dd1f5-9444-4740-a043-2afcdd85fe56",
+                "resourcePath": "views\\9e2fa236-43b7-4632-93a7-1022414ff11a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "9f6d0db3-b80c-4237-a235-a095fb19769a",
             "Value": {
                 "id": "257652f8-9d4c-46b4-8bef-d2d2e43e0605",
@@ -647,6 +663,14 @@
             }
         },
         {
+            "Key": "e3835572-607f-4ba9-b08d-42d0f319e1e6",
+            "Value": {
+                "id": "e44ebe02-c90c-430f-9ea5-1328e766a7de",
+                "resourcePath": "sounds\\dustyDepotSound\\dustyDepotSound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "e4597643-1a89-44db-a987-8f5aaabda2f9",
             "Value": {
                 "id": "dddafeae-2c82-402d-b83a-160ac321a737",
@@ -724,6 +748,14 @@
                 "id": "81151e5c-cfb0-4cfa-b2b2-155e5f59080f",
                 "resourcePath": "objects\\o_VolumeSliderBackgroundMusic\\o_VolumeSliderBackgroundMusic.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ed78376c-a63a-4fec-b5eb-f92e98e8d9ff",
+            "Value": {
+                "id": "da23d528-f484-4ea2-a2fd-bc71adc90c66",
+                "resourcePath": "sprites\\s_ui_planets_dustyDepot\\s_ui_planets_dustyDepot.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

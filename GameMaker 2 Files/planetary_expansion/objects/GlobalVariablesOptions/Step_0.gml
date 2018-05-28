@@ -77,7 +77,7 @@ if musicFadeIn = true
 }
 else
 {
-	audio_sound_gain(menuThemeSound, musicVolume,1);
+audio_sound_gain(menuThemeSound, musicVolume,1);
 }
 ///////audio_sound_gain(mForest, musicVolume,1);
 // controls option variables

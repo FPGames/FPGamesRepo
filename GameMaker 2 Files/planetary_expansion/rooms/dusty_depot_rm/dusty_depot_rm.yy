@@ -2,7 +2,7 @@
 {
     "name": "dusty_depot_rm",
     "id": "beacd986-3cfc-413b-922a-7bd348604475",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
@@ -11,7 +11,8 @@
         "1c54e51b-b0dd-4c60-8cbb-442487b0ad1f",
         "bf58dc32-de75-43f0-ad5b-0a8f8652328e",
         "a9e11811-a756-4ed4-8a29-c9533a5c642e",
-        "92e41960-01bd-4032-8d57-89a54483823e"
+        "92e41960-01bd-4032-8d57-89a54483823e",
+        "a4ae3772-fe2d-48bc-85a5-27da02ad960c"
     ],
     "IsDnD": false,
     "layers": [
@@ -33,8 +34,8 @@
                     "name": "UI_Buttons",
                     "id": "2ace260e-b5f2-4d71-80d3-5e73e510307a",
                     "depth": 100,
-                    "grid_x": 32,
-                    "grid_y": 32,
+                    "grid_x": 16,
+                    "grid_y": 16,
                     "hierarchyFrozen": false,
                     "hierarchyVisible": true,
                     "inheritLayerDepth": false,
@@ -45,7 +46,8 @@
 {"name": "inst_54B1A02C","id": "1c54e51b-b0dd-4c60-8cbb-442487b0ad1f","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_54B1A02C","objId": "3fb3637b-e475-4975-8496-a464c7849d6d","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 527,"y": 972},
 {"name": "inst_115CC835","id": "bf58dc32-de75-43f0-ad5b-0a8f8652328e","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_115CC835","objId": "7a9a6cec-29e4-4fb1-9d6e-ffe220a33194","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 638,"y": 972},
 {"name": "inst_706436DC","id": "a9e11811-a756-4ed4-8a29-c9533a5c642e","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_706436DC","objId": "c35c6676-481a-401f-951f-a435e0135682","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 1096,"y": 1011},
-{"name": "inst_390D9CB8","id": "92e41960-01bd-4032-8d57-89a54483823e","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_390D9CB8","objId": "f71cdca8-467b-4e7f-995b-40e5b96f821f","properties": null,"rotation": 0,"scaleX": 1.4,"scaleY": 1.32,"mvc": "1.0","x": 192,"y": 60}
+{"name": "inst_390D9CB8","id": "92e41960-01bd-4032-8d57-89a54483823e","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_390D9CB8","objId": "f71cdca8-467b-4e7f-995b-40e5b96f821f","properties": null,"rotation": 0,"scaleX": 1.4,"scaleY": 1.32,"mvc": "1.0","x": 192,"y": 60},
+{"name": "inst_2009FFC7","id": "a4ae3772-fe2d-48bc-85a5-27da02ad960c","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2009FFC7","objId": "9d3c4a4a-6095-4a83-8da3-f74d011dd056","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 736,"y": 976}
                     ],
                     "layers": [
 

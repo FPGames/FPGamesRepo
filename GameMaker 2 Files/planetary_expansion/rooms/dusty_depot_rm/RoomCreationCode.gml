@@ -1,0 +1,1 @@
+audio_play_sound(dustyDepotSound,1,1)

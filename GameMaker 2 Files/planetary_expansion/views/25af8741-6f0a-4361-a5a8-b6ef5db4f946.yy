@@ -8,7 +8,8 @@
         "e7c5005c-8bc0-408d-95cc-2b08fb9c67b3",
         "63c84b52-ebdb-4ff6-a40c-219d2f324fd9",
         "11250beb-996c-4d6a-a037-57f6b17686a6",
-        "c970994a-d389-4f63-bf6d-9f30e0077c15"
+        "c970994a-d389-4f63-bf6d-9f30e0077c15",
+        "9e2fa236-43b7-4632-93a7-1022414ff11a"
     ],
     "filterType": "GMSprite",
     "folderName": "uiSprites",
