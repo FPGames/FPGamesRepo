@@ -8,7 +8,8 @@
         "7a9a6cec-29e4-4fb1-9d6e-ffe220a33194",
         "3fb3637b-e475-4975-8496-a464c7849d6d",
         "f71cdca8-467b-4e7f-995b-40e5b96f821f",
-        "9d3c4a4a-6095-4a83-8da3-f74d011dd056"
+        "9d3c4a4a-6095-4a83-8da3-f74d011dd056",
+        "e98fc08c-3371-4a2c-bed3-21a43f957e10"
     ],
     "filterType": "GMObject",
     "folderName": "uiObjects",

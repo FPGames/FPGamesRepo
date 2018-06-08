@@ -735,6 +735,14 @@
             }
         },
         {
+            "Key": "e98fc08c-3371-4a2c-bed3-21a43f957e10",
+            "Value": {
+                "id": "855e7485-ad04-44c8-9248-03df41b1e921",
+                "resourcePath": "objects\\o_ui_planetStatsUI\\o_ui_planetStatsUI.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e9aa0984-c202-4452-8624-cab0b95aa20e",
             "Value": {
                 "id": "58e1da5b-aaa4-4db5-a67b-e9b8e8d2cd9d",
