@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "929be471-91b5-4bc7-a749-cd9ec0b1de40",
+            "Value": {
+                "id": "ae5712b2-35ad-4457-864b-bc52fd2a15a7",
+                "resourcePath": "fonts\\dateFont\\dateFont.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "9536f8c8-90b8-4a23-91a7-aededcd9ac38",
             "Value": {
                 "id": "766e9504-f85f-41bf-b95c-562df00060f1",
@@ -519,6 +527,14 @@
             }
         },
         {
+            "Key": "c1e51604-cfed-426c-8f73-d7a4d5757a6c",
+            "Value": {
+                "id": "8a2fa0fb-e661-43f1-8215-391ba4e4e6cb",
+                "resourcePath": "views\\c1e51604-cfed-426c-8f73-d7a4d5757a6c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "c3070f59-8933-4ad2-a4d0-59b373643db4",
             "Value": {
                 "id": "64ddbebc-0840-4d73-8d85-899d781bc0dc",
@@ -620,6 +636,14 @@
                 "id": "f9b974d6-6c13-4898-bbbe-243a7c4d73f9",
                 "resourcePath": "fonts\\optionsFont\\optionsFont.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "d3f5ca83-3d31-49d1-a1f4-95c0b8559682",
+            "Value": {
+                "id": "8be9c489-62d4-4f2d-83f7-b5ae09fb715b",
+                "resourcePath": "objects\\GlobalVariablesUI\\GlobalVariablesUI.yy",
+                "resourceType": "GMObject"
             }
         },
         {

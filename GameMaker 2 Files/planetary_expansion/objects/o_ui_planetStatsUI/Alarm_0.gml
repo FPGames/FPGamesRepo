@@ -1,12 +1,15 @@
-/// @description Setting up UI
+/// @description Time Global Update
 // You can write your code in this editor
-display_set_gui_size(1920,1080)
+day += 1
 
-alarm[0] = 60
-
-day = global.day
-month = global.month
-year = global.year
+if day > 30 {
+	month += 1
+	day = 1
+}
+if month > 12{
+	year += 1
+	month = 1
+}
 
 strDay = string(day)
 strMonth = string(month)
@@ -34,3 +37,8 @@ switch (string_length(strYear))
 		strYear = "0" + string(year)
 		break;
 }
+
+global.day = day
+global.month = month
+global.year = year
+alarm[0] = 60
