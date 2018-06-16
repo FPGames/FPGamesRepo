@@ -8,6 +8,9 @@ day = global.day
 month = global.month
 year = global.year
 
+units = 54200
+population = 1300000
+
 strDay = string(day)
 strMonth = string(month)
 strYear = string(year)
