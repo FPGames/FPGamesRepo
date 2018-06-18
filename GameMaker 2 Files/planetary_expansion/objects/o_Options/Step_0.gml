@@ -31,8 +31,8 @@ switch (optionSelect_mode)
 		sprite_index = s_VideoBackground;
 		if (videoMenuDelay = 0)
 		{
-			instance_create_layer(930,288,"ACV_Buttons",o_DisplayWindow);
-			instance_create_layer(930,708,"ACV_Buttons",o_FrameCap);
+			//instance_create_layer(930,288,"ACV_Buttons",o_DisplayWindow);
+			//instance_create_layer(930,708,"ACV_Buttons",o_FrameCap);
 			videoMenuDelay = 1;
 		}
 		break;
@@ -56,8 +56,8 @@ if (optionSelect_mode != OPTIONS_SELECT.AUDIO)
 }
 if (optionSelect_mode != OPTIONS_SELECT.VIDEO)
 {
-	instance_destroy(o_DisplayWindow);
-	instance_destroy(o_FrameCap);
+	//instance_destroy(o_DisplayWindow);
+	//instance_destroy(o_FrameCap);
 }
 // music, sound and track checker
 //if (GlobalVariablesOptions.musicPlay) {MOFN = On;}

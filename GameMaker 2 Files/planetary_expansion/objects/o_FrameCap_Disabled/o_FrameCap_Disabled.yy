@@ -2,7 +2,7 @@
     "id": "e5cad3e2-6612-4629-9392-5c0edf92c366",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_FrameCap",
+    "name": "o_FrameCap_Disabled",
     "eventList": [
         {
             "id": "1f2a999c-ac6b-494b-84da-211fd82d89b3",

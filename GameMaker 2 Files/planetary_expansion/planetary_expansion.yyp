@@ -282,7 +282,7 @@
             "Key": "641a98bb-5d85-4dac-a9d8-ada1bf7087d4",
             "Value": {
                 "id": "2d9afedc-ea3a-469b-91f3-dd74c024983f",
-                "resourcePath": "objects\\o_VideoButton\\o_VideoButton.yy",
+                "resourcePath": "objects\\o_VideoButton_Disabled\\o_VideoButton_Disabled.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -770,7 +770,7 @@
             "Key": "e507a8a1-b504-4d4b-9346-abb7a78c9bd8",
             "Value": {
                 "id": "2c74e9e8-532a-495f-9d09-ad8c8ed3e719",
-                "resourcePath": "objects\\o_DisplayWindow\\o_DisplayWindow.yy",
+                "resourcePath": "objects\\o_DisplayWindow_Disabled\\o_DisplayWindow_Disabled.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -778,7 +778,7 @@
             "Key": "e5cad3e2-6612-4629-9392-5c0edf92c366",
             "Value": {
                 "id": "3fb90b94-63ab-4c8d-a498-37908f9f1868",
-                "resourcePath": "objects\\o_FrameCap\\o_FrameCap.yy",
+                "resourcePath": "objects\\o_FrameCap_Disabled\\o_FrameCap_Disabled.yy",
                 "resourceType": "GMObject"
             }
         },
